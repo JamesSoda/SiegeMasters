@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>SiegeMasters</artifactId>
+        <groupId>io.github.zaxarner.mc</groupId>
+        <version>0.0.1</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>SiegeMastersCore</artifactId>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>api</groupId>
+            <artifactId>com.gmail.filoghost.holographicdisplays</artifactId>
+            <version>2.4.1</version>
+            <scope>system</scope>
+            <systemPath>E:/Development/Minecraft/SiegeMasters/lib/holographicdisplays-api-2.4.1-20191220.141028-5.jar</systemPath>
+        </dependency>
+
+    </dependencies>
+    <!--
+    <dependencies>
+        <dependency>
+            <groupId>com.vexsoftware</groupId>
+            <artifactId>nuvotifier-universal</artifactId>
+            <version>2.5.3</version>
+            <scope>compile</scope>
+            <systemPath>${project.basedir}/lib/nuvotifier-2.5.3.jar</systemPath>
+        </dependency>
+    </dependencies>
+    -->
+
+</project>
