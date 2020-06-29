@@ -1,0 +1,86 @@
+worlds:
+  pvp:
+    - "Crumbling_Castle_original"
+    - "game_original"
+    - "Ulradon_Castle_original"
+    - "Rats_Nest_original"
+  creative:
+    - "creative"
+  other:
+    - "admin"
+  spawn:
+    - "spawn"
+spawn: "spawn:0.5:65.0:0.5:0.0:-10.0"
+message-manager:
+  prefix: "&r&7[&5Siege&eMasters&fCore&7]&r"
+  messages:
+    version: "{prefix} The current version is &e{version}."
+    invalid-argument: "{prefix} &cInvalid argument."
+hologram-manager:
+  enabled: true
+  # The default cleanup distance
+  cleanup-distance: 16
+  # The default task period
+  task-period: 20
+  holograms:
+    spawn-southeast-info:
+      location: "spawn:4.5:67.0:6.5"
+      lines:
+        - "&5========================"
+        - "&fWelcome to &eSiegeMasters&f, {player}!"
+        - "&fPlayers online: &e{online}/{max_players}"
+    spawn-southwest-info:
+      location: "spawn:-3.5:67.0:6.5"
+      lines:
+        - "&5========================"
+        - "&fFollow the &eprojectors&f to"
+        - "&flearn more about the server, &e{player}&f!"
+    spawn-north-info:
+      location: "spawn:0.5:67.0:-6.5"
+      cleanup-distance: 32
+      lines:
+        - "&5========================"
+        - "&fGo through the gate to play the game!"
+        - "&f... or do &e/join&f!"
+    spawn-loadouts-abilities-1:
+      location: "spawn:5.5:67.6:20.5"
+      cleanup-distance: 12
+      lines:
+        - "&5========================"
+        - "&f{player}, if you want to be a &eSiegeMaster&f,"
+        - "&fyou'll need to learn how to use your &eLoadout!"
+        - ""
+        - "&fEach &eSiegeMaster Loadout &fhas four abilities,"
+        - "a weapon, and four utility items."
+    spawn-loadouts-abilities-2:
+      location: "spawn:7.5:67.6:30.5"
+      cleanup-distance: 12
+      lines:
+        - "&5========================"
+        - "&fA great &eSiegeMaster &fcustomizes their &eLoadout"
+        - "&fto suit their team's needs and their own combat style."
+        - ""
+        - "&fThere are nine weapons and &nthousands&r&f of ability combinations!"
+        - ""
+        - "&fUse &e/loadout &fto start customizing!"
+    spawn-loadouts-abilities-3:
+      location: "spawn:18.5:67.6:27.5"
+      cleanup-distance: 12
+      lines:
+        - "&5========================"
+        - "&fA great &eSiegeMaster &fcustomizes their &eLoadout"
+        - "&fto suit their team's needs and their own combat style."
+        - ""
+        - "&fThere are nine weapons and &nthousands&r&f of ability combinations!"
+        - ""
+        - "&fUse &e/loadout &fto start customizing!"
+leaderboard-manager:
+  enabled: true
+  task-period: 200
+  leaderboards:
+    kills:
+      location: "spawn:0:0:0"
+      statistic: "kills"
+      header:
+        - "&5========================"
+        - "Blah blah Top 10 kills"

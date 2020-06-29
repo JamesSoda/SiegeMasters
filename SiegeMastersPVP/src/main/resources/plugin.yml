@@ -1,0 +1,12 @@
+name: SiegeMastersPVP
+main: io.github.zaxarner.mc.siegemasters.pvp.SiegeMastersPVP
+version: 0.0.1
+description: SiegeMastersPVP plugin
+author: Zaxarner
+api-version: '1.15'
+depend:
+  - ProtocolLib
+  - SiegeMastersCore
+permissions:
+  siegemasters.admin:
+    description: "General Admin permission for SiegeMasters"

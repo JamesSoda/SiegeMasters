@@ -1,0 +1,15 @@
+name: SiegeMastersCore
+main: io.github.zaxarner.mc.siegemasters.core.SiegeMastersCore
+version: 0.0.1
+description: SiegeMastersCore plugin
+author: Zaxarner
+api-version: "1.15"
+depend:
+  - ProtocolLib
+softdepend:
+  - HolographicDisplays
+permissions:
+  siegemasters.staff:
+    description: "General Staff permission for SiegeMasters"
+  siegemasters.admin:
+    description: "General Admin permission for SiegeMasters"

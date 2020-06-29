@@ -1,0 +1,7 @@
+.idea/
+lib/
+target/
+SiegeMastersCore/target/
+SiegeMastersPVP/target/
+cache/
+logs/
